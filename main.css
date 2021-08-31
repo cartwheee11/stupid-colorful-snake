@@ -1,0 +1,78 @@
+
+@font-face {
+	font-family:  'the-font';
+	src:  url('./fonts/TheFont.ttf');
+}
+
+* {
+	box-sizing: border-box;
+	color:  white;
+	text-align: center;
+	font-family:  'the-font';
+	font-size: 16px;
+	font-weight: 800;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: black;
+	margin: 0;
+	overflow:  hidden;
+	color:  white;
+	vertical-align: middle;
+	width:  100%;
+	height: 100%;
+	display: table;
+}
+
+canvas {
+	background: black;
+}
+
+.header {
+	padding:  0 100px;
+	width:  100%;
+	margin: 0 auto;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.social {
+	margin-bottom: 10px;
+}
+
+.social img {
+	width: 16px;
+}
+
+.social span {
+	margin-right: 20px;
+}
+
+h1 {
+	padding:  100px;
+	color:  white;
+	font-size: 45px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'the-font';
+}
+
+h2 {
+	text-align: center;
+	font-family: 'the-font';
+	font-size:  16px;
+	color:  grey;
+}
+
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
